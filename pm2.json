@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "dspace7_ui_pm2",
+      "cwd": "/usr/local/dspace7/source",
+      "script": "dist/server/main.js",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
